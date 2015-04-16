@@ -1,7 +1,9 @@
+
 def operation(choice)
   if choice == 'add' || choice == '1' 
-	  lets_do_it(choice) 
-	  puts "#{line}The answer is #{arr[0].to_i + arr[1].to_i}"
+	  puts "Ok Lets Add!"
+    arr = user_input 	  
+    puts "#{line}The answer is #{arr[0].to_i + arr[1].to_i}"
   elsif choice == 'subtract' || choice == '2'
 	  puts "Ok Lets SUBTRACT!"
 	  arr = user_input 
@@ -17,11 +19,6 @@ def operation(choice)
   else 
 	  puts "Thats not a valid response"
   end
-end
-
-def lets_do_it(choice)
-  puts "Ok Lets Add!"
-  arr = user_input
 end
 
 def line
