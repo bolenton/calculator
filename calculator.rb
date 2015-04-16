@@ -1,4 +1,3 @@
-
 def operation(choice)
   if choice == 'add' || choice == '1' 
 	  lets_do_it(choice) 
