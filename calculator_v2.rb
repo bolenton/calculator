@@ -1,7 +1,7 @@
 require 'pry'
 
 def say(words)
-  puts "==> " + words
+  puts "==> #{words}"
 end
 
 say "OK What is your first number?"
