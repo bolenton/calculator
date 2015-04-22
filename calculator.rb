@@ -33,8 +33,11 @@ def user_input
   return num1, num2
 end
 
-puts """Welcome to simple calculator. Would you like to do:
-1. add (a)\n2. subtract(s)\n3. multiply (m)\n4. divide (d)"""
+puts "Welcome to simple calculator. Would you like to do:"
+puts "1. add (a)"
+puts "2. subtract(s)"
+puts "3. multiply (m)"
+puts "4. divide (d)"
 puts ">>>> "
 choice = gets.chomp
 operation(choice)
